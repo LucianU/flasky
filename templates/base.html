@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="{{ SITEURL }}/theme/css/pygments.css" type="text/css" />
     <link rel="stylesheet" href="{{ SITEURL }}/theme/css/font-awesome.css" type="text/css"/>
 
+    {% if GOOGLE_ANALYTICS_ACCOUNT is defined %}
         <script type="text/javascript">
           var _gaq = _gaq || [];
           _gaq.push(['_setAccount', '{{ GOOGLE_ANALYTICS_ACCOUNT }}']);
@@ -21,21 +22,21 @@
             var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
           })();
         </script>
+    {% endif %}
   </head>
   <body>
     <div class=container>
         {% block header %}
             {% include "header.html" %}
         {% endblock %}
-        
+
         <div class=body>
         {% block content %} {% endblock %}
         </div>
-        
+
         {% block footer %}
             {% include "footer.html" %}
         {% endblock %}
     </div>
   </body>
 </html>
-
