@@ -7,7 +7,6 @@
     <p class=date> {{ article.date.strftime('%d %B %Y') }} </p>
     {{ article.content }}
 
-    {% include "subscribe.html" %}
     {% include "twitter.html" %}
     {% if article.tags is defined %}
         <p class=tags>This entry was tagged as
