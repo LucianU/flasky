@@ -86,12 +86,11 @@ div.container {
   padding: 0;
 }
 
-div.header {
-  float: left;
-}
-
+div.header,
 div.navigation {
-  float: left;
+  height: 25px;
+  margin-bottom: 42px;
+  text-align: center;
 }
 
 div.navigation a {
@@ -107,12 +106,6 @@ div.separator {
   font-size: 16px;
   color: #888;
   text-align: center;
-}
-
-div.header,
-div.navigation {
-  height: 25px;
-  margin-bottom: 42px;
 }
 
 div.navigation ul {
