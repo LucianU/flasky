@@ -114,7 +114,11 @@ div.navigation ul li {
 }
 
 div.body {
-  clear: both;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
 div.footer {
