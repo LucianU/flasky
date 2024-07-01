@@ -72,6 +72,16 @@ h2 {
   line-height: 40px;
 }
 
+h3::before, h4::before {
+  content: "►";
+  color: #1a5f7a;
+  margin-right: 0.5em;
+}
+
+h3, h4 {
+  font-weight: 500;
+}
+
 /* layout elements */
 div.container {
   width: 740px;
