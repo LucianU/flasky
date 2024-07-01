@@ -63,8 +63,8 @@ h2 {
 }
 
 h1 {
-  font-size: 48px;
-  line-height: 52px;
+  font-size: 2.074em; /* This is about 41.48px */
+  line-height: 1.2; /* This gives a line-height of about 50px */
 }
 
 h2 {
