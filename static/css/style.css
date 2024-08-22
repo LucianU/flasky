@@ -227,10 +227,11 @@ pre {
 /* For inline code */
 :not(pre) > code {
   line-height: inherit; /* Match surrounding text */
-  font-size: 0.9em; /* Slightly smaller than surrounding text */
+  font-size: 0.8em; /* Slightly smaller than surrounding text */
   padding: 0.1em 0.3em;
   border-radius: 3px;
-  background-color: #f0f0f0;
+  background-color: #fdf6e3;
+  color: #657b83;
 }
 
 
